@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Guitar Tuner</title>
+  <meta name="description" content="DESCRIPTION">
+  <meta name="author" content="AUTHOR">
+
+<style type="text/css">
+body {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 120%;
+  padding: 20px;  
+}
+
+div#center {
+  margin: auto;
+  text-align: center;
+}
+
+div#footer {
+  text-align: right;
+  font-family: monospace;
+  font-size: 12px;
+  padding: 100px 20px 0px 0px;
+}
+
+table#main {
+  border: 2px solid #606060;
+  border-radius: 5px;
+  box-shadow: 0 0 12px 0px #101010;
+  margin: auto;
+  width: 90%;
+}
+
+tr {
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+    border: 1px solid #888;
+}
+
+</style>
+</head>
+
+<body>
+  <div id="center">
+  <h1>Guitar Tuner</h1>
+<table id="main">
+  <tr>
+    <th>String</th>
+    <th>Frequency (Hz)</th>
+    <th>Play</th> 
+    <th>Loop</th>
+  </tr>
+  <tr style="background: #ccb3ff;">
+    <td>high E</td>
+    <td>329.63</td> 
+    <td>
+      <audio controls>
+       <source src="aud/highE.ogg" type="audio/ogg"></td>
+      </audio>
+    </td>
+    <td>
+     <audio controls loop>
+      <source src="aud/highEloop.ogg" type="audio/ogg">
+     </audio>
+    </td>
+  </tr>
+   <tr style="background: #abe3ff;">
+    <td>B</td>
+    <td>246.94</td> 
+    <td>
+      <audio controls>
+       <source src="aud/b.ogg" type="audio/ogg"></td>
+      </audio>
+    </td>
+    <td>
+     <audio controls loop>
+      <source src="aud/bloop.ogg" type="audio/ogg">
+     </audio>
+    </td>
+   </tr> 
+  <tr style="background: #ccff99;">
+    <td>G</td>
+    <td>196.00</td> 
+    <td>
+      <audio controls>
+       <source src="aud/g.ogg" type="audio/ogg"></td>
+      </audio>
+    </td>
+    <td>
+     <audio controls loop>
+      <source src="aud/gloop.ogg" type="audio/ogg">
+     </audio>
+    </td>
+  </tr>
+  <tr style="background: #ffff99;">
+    <td>D</td>
+    <td>146.83</td> 
+    <td>
+      <audio controls>
+       <source src="aud/d.ogg" type="audio/ogg"></td>
+      </audio>
+    </td>
+    <td>
+     <audio controls loop>
+      <source src="aud/dloop.ogg" type="audio/ogg">
+     </audio>
+    </td>
+
+
+  </tr>
+  <tr style="background: #ffcc99;">
+    <td>A</td>
+    <td>110.00</td> 
+    <td>
+      <audio controls>
+       <source src="aud/a.ogg" type="audio/ogg"></<td>
+      </audio>
+    </td>
+    <td>
+     <audio controls loop>
+      <source src="aud/aloop.ogg" type="audio/ogg">
+     </audio>
+    </td>
+
+
+  </tr>
+  <tr style="background: #ff9999;">
+    <td>low E</td>
+    <td>82.41</td> 
+
+    <td>
+      <audio controls>
+       <source src="aud/lowE.ogg" type="audio/ogg"></td>
+      </audio>
+    </td>
+    <td>
+     <audio controls loop>
+      <source src="aud/lowEloop.ogg" type="audio/ogg">
+     </audio>
+    </td>
+
+  </tr>
+
+
+
+
+</table>
+</div>
+<div id="footer">
+  <a href="https://github.com/dbb">https://github.com/dbb</a>
+</div>
+</body>
+</html>
