@@ -69,7 +69,7 @@ var catStr = 'You answered the following questions incorrectly: ' + categories.j
 $("#categorylist").text(catStr);                        
 $("#categorylist").show("slow");            
 
-document.write('Total Incorrect:' incorrect);
+document.write( 'Total Incorrect:' + incorrect );
 
 if (cat1) { $("#category1").show("slow"); };            
 if (cat2) { $("#category2").show("slow"); };            
